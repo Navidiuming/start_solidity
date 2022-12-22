@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Main.sol": {
-			"keccak256": "0xb7c3fc26a4eaa443ab8b9edfe64b4e0a02950482e177bcdc241dfe2953bbadb8",
+			"keccak256": "0xab1d7cc667df67d7e14aab5371d7a90806761ce4d5eb61261f090b35b9e1698d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2dd9ea9728f68ca017e7608841ef193c7697bc9465572510f3baf179d33b2a77",
-				"dweb:/ipfs/QmfGEJqvezUMiXYqLYae23HzQqFDMJN8kb1F1qsYjTY1SW"
+				"bzz-raw://84c83966f5af5d2bd18ca8c79f011086ac955b147a7ccc58fd74fc26391fb4d5",
+				"dweb:/ipfs/QmYR8xBrgVDTkogxrXeBLwpD8HPYJffKNLjHVpiiJfDWqM"
 			]
 		}
 	},

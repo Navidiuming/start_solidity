@@ -6,4 +6,8 @@ contract MyContract{
     function setMood(string memory _mood) public {
         myMood = _mood;
     }
+
+    function getMood()view public returns(string memory){
+        return myMood;
+    }
 }
