@@ -4,7 +4,58 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "pureFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myMood",
+						"type": "string"
+					}
+				],
+				"name": "setMood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/Main.sol": {
-			"keccak256": "0x3abb65118ce7b049ab28f6c1a2273a23fcdf45b8d85edb273ebfd7c5f6c1ca4e",
+			"keccak256": "0x185e223ba01ab84021bb1d34e839981214025e2a6fa09253ba74d83e4c8a33d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f6a2bab3ed26678c82b53e9de6614307614735c30dfea0fbeab83350aae289bd",
-				"dweb:/ipfs/QmVQFE7Hbd41LiytxULwRzgsqLmkptQ81gdLE5GgzDgQEH"
+				"bzz-raw://e22744f1f3bdbd1597b38b427acdcafc1e1de23f35281a5abe9f07c037991096",
+				"dweb:/ipfs/QmQWarfKngLybKc9Kxvbuozu3YuMJdXdG3rLcfKKNHF17y"
 			]
 		}
 	},
