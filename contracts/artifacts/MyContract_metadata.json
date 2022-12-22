@@ -6,47 +6,10 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getMood",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "pureFunction",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_myMood",
+						"name": "_mood",
 						"type": "string"
 					}
 				],
@@ -84,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Main.sol": {
-			"keccak256": "0x185e223ba01ab84021bb1d34e839981214025e2a6fa09253ba74d83e4c8a33d4",
+			"keccak256": "0xb7c3fc26a4eaa443ab8b9edfe64b4e0a02950482e177bcdc241dfe2953bbadb8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e22744f1f3bdbd1597b38b427acdcafc1e1de23f35281a5abe9f07c037991096",
-				"dweb:/ipfs/QmQWarfKngLybKc9Kxvbuozu3YuMJdXdG3rLcfKKNHF17y"
+				"bzz-raw://2dd9ea9728f68ca017e7608841ef193c7697bc9465572510f3baf179d33b2a77",
+				"dweb:/ipfs/QmfGEJqvezUMiXYqLYae23HzQqFDMJN8kb1F1qsYjTY1SW"
 			]
 		}
 	},
